@@ -2,42 +2,60 @@
 function problem1() {
   var oneToTen = [];
   // start coding here
-
+  for (var i=1; i < 11; i++) {
+    oneToTen.push(i);
+  }
   // done coding here
   return oneToTen;
 }
 
 // Write a for loop within this function that will create this array: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 function problem2() {
-  var tenToOne = [];
+  var oneToTen = [];
   // start coding here
-
+  for (var i=1; i < 11; i++) {
+    oneToTen.push(i);
+  }
+  var tenToOne = oneToTen.reverse();
   // done coding here
   return tenToOne;
 }
+problem2();
 
 // Write a for loop within this function that will create this array: [1, 3, 5, 7, 9]
 function problem3() {
   var oddNumsArray = [];
   // start coding here
-
+  for(var i=0; i < 10; i++) {
+    if ((i % 2) != 0) {
+      oddNumsArray.push(i);
+    } //end if
+  } //end for
   // done coding here
   return oddNumsArray;
 }
+problem3();
 
 // Write a for loop within this function that will create this array: [2, 4, 6, 8, 10]
 function problem4() {
   var evenNumsArray = [];
   // start coding here
-
+  for(var i=1; i <= 10; i++) {
+    if ((i % 2) == 0) {
+      evenNumsArray.push(i);
+    } //end if
+  } //end for
   // done coding here
   return evenNumsArray;
 }
+
 // Write a for loop within this function that will create this array: [3, 6, 9]
 function problem5() {
   var threesArray = [];
   // start coding here
-
+  for(var i=1; i <= 3; i++) {
+    threesArray.push(i*3);
+} //end for
   // done coding here
   return threesArray;
 }
@@ -47,6 +65,8 @@ function problem5() {
 function problem6(arr) {
   var jNamesArray = [];
   // start coding here
+  for (var i=0; i < 3; i++) {
+    }
 
   // done coding here
   return jNamesArray;
